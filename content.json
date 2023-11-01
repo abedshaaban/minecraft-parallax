@@ -34,7 +34,7 @@
     },
     "block-3": {
       "title": "Coal Block",
-      "block-img": "./assests/blocks/",
+      "block-img": "./assests/blocks/coal-block.png",
       "bg": "1 block color",
       "block-description": "Blocks of coal can be used as fuel in a furnace. One block of coal lasts 800 seconds (16000 ticks), which smelts 80 items.",
       "characteristics": [
@@ -45,7 +45,7 @@
     },
     "block-4": {
       "title": "Diamond Block",
-      "block-img": "./assests/blocks/",
+      "block-img": "./assests/blocks/diamon-block.png",
       "bg": "1 block color",
       "block-description": "Blocks of diamond can be used to 'power' a beacon. The beacon can be powered by a 3×3 square of diamond blocks underneath it.",
       "characteristics": [
