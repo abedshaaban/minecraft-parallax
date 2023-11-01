@@ -1,0 +1,16 @@
+.hero::before {
+    background-image: url("../assets/land/Adornland.webp");
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+  }
+
+.sub-hero::before{
+    background-image: url("../assets/land/cave.jpg");
+    transform: translateZ(-1px) scale(2);
+    z-index: -2;
+
+}
+.minecraft-sentence > .container{
+    font-size: 7em;
+    color:whitesmoke;
+}
