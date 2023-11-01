@@ -1,6 +1,4 @@
 
- 
-
 .animalcontainer{
     object-fit: cover;
     object-position: center;
@@ -8,15 +6,12 @@
  }
 
 .animalcontainer1{
-    
-    background-image: url("../assets/land/Jungle.webp");
+    background-image: url("../assets/land/Origin_Island.jpg");
 }
 .animalcontainer2{
-    
-    background-image: url("../assets/land/Origin_Island.webp");
+    background-image: url("../assets/land/Jungle.webp");
 }
 .animalcontainer3{
-    
     background-image: url("../assets/land/ocean.webp");
 }
 .card{
@@ -29,6 +24,11 @@
 }
 
 .card p{
+    box-shadow: 3px 3px 7px 11px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
     max-width: 350px;
 }
 .photo {
@@ -43,6 +43,12 @@
 }
 .a3{
     max-width: 250px;
+}
+.reverse-flex{
+flex-direction: row-reverse;
+}
+.w{
+    color: white;
 }
 .title{
     font-weight: 900;
