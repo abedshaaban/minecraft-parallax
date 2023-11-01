@@ -12,11 +12,13 @@
 }
 
 .minecraft-sentence{
-
     transform: translateZ(0);
 }
 .game-decrption{
     font-size: 7em;
     color: white;
-    text-align: center;
+    text-align:center;
+}
+.minecraft-title{
+    max-width: 100vh;
 }
