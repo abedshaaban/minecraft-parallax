@@ -10,7 +10,13 @@
     z-index: -2;
 
 }
-.minecraft-sentence > .container{
+
+.minecraft-sentence{
+
+    transform: translateZ(0);
+}
+.game-decrption{
     font-size: 7em;
-    color:whitesmoke;
+    color: white;
+    text-align: center;
 }
