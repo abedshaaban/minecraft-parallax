@@ -59,3 +59,10 @@
   width: 100%;
   border-collapse: collapse;
 }
+
+@media (max-width: 767px) {
+  .info {
+    padding: 0 10px;
+    flex-direction: column;
+  }
+}
