@@ -1,58 +1,61 @@
-.title {
-    position: absolute; /* Position it at the top-left corner */
-    top: 20px; /* Adjust the top margin as needed */
-    left: 20px; /* Adjust the left margin as needed */
-    font-size: 40px;
-    font-weight: bold;
-    color: #fff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
-}
-
-.page {
+.block {
   width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  perspective: 1px;
-    transform-style: preserve-3d;
-    /* Adjust the following values to control the parallax effect */
-    transform: translateZ(-2px) scale(1.05);
-    transition: transform 0.5s ease;
-}
-.page:hover {
-    transform: translateZ(0);
+  height: 100vh;
 }
 
-.page img {
-  width: 200px;
-  height: 200px;
+.block > h2 {
+  width: 100%;
+  padding: 18px;
+  font-weight: 600;
+  font-size: 33px;
 }
 
 .info {
+  width: 100%;
+  height: calc(100% - 45px);
   display: flex;
-  gap: 100px;
-  position: relative;
-    z-index: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.info h2{
-    margin-bottom: 10px;
-    text-shadow: 2px 2px black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.block-img {
+  width: 210px;
+  height: 210px;
 }
 
-.info p{
-    font-size:15px;
-    margin-bottom: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
-}
-.info ul li{
-    list-style: none;
-    font-size:20;
-    margin-bottom: 5px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.description {
+  width: 100%;
+  max-width: 360px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
+.w {
+  color: white;
+}
+
+.b {
+  color: black;
+}
+
+.description table,
+.description td,
+.description th {
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  padding: 3px 0 3px 12px;
+}
+
+.b-t table,
+.b-t td,
+.b-t th {
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  padding: 3px 0 3px 12px;
+}
+
+.description table {
+  width: 100%;
+  border-collapse: collapse;
+}
