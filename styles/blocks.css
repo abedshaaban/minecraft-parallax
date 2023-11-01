@@ -15,6 +15,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  perspective: 1px;
+    transform-style: preserve-3d;
+    /* Adjust the following values to control the parallax effect */
+    transform: translateZ(-2px) scale(1.05);
+    transition: transform 0.5s ease;
+}
+.page:hover {
+    transform: translateZ(0);
 }
 
 .page img {
@@ -25,12 +33,16 @@
 .info {
   display: flex;
   gap: 100px;
+  position: relative;
+    z-index: 1;
 }
+
 .info h2{
     margin-bottom: 10px;
     text-shadow: 2px 2px black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 .info p{
     text-size:15px;
     margin-bottom: 20px;
