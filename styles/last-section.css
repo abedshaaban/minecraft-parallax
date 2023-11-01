@@ -32,14 +32,29 @@ body{
     position: absolute;
     top: 40%; 
     left: 60%; 
+    animation-name: dragon-intro;
+    animation-duration: 0.9s;
+
     
+    
+}
+
+@keyframes dragon-intro {
+    0%{opacity: 0;scale:0.8}
+    100%{opacity: 1;scale:1} 
 }
 
 .char2 {
     position: absolute;
     top: 60%; 
     left: 6%; 
+    animation-name: enderman-intro;
+    animation-duration: 0.9s;
+}
 
+@keyframes enderman-intro {
+    0%{scale:0.5}
+    100%{scale:1} 
 }
 
 .char1 img {
