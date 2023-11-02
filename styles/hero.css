@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero::before {
+  background-image: url("../assets/land/Adornland.webp");
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.minecraft-title {
+  max-width: 70%;
+}
+
+.sub-hero::before {
+  background-image: url("../assets/land/cave.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index: -2;
+}
+
+.minecraft-sentence {
+  transform: translateZ(0);
+}
+
+.game-decrption {
+  font-size: 6em;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .minecraft-title {
+    max-width: 100%;
+  }
+
+  .game-decrption {
+    font-size: 3em;
+  }
+}
